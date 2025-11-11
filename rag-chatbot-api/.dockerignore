@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Tests
+tests/
+test_*.py
+
+# Terraform
+infrastructure/terraform/
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+Thumbs.db
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Model cache
+.cache/
+models/
+
+# Development
+requirements-dev.txt
+.pre-commit-config.yaml
